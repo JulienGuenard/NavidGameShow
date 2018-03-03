@@ -23,8 +23,9 @@ GameObject:
   - component: {fileID: 65090921235572870}
   - component: {fileID: 23790800012452348}
   - component: {fileID: 114350687305292668}
-  m_Layer: 0
-  m_Name: Barrack
+  - component: {fileID: 208172709819914890}
+  m_Layer: 2
+  m_Name: Building
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +93,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 4.5, y: 4.5, z: 2.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114350687305292668
 MonoBehaviour:
@@ -111,3 +112,18 @@ MonoBehaviour:
   - {fileID: 4300000, guid: 3f530f86a8d3fa34e9fb946394f76a23, type: 3}
   listMaterial:
   - {fileID: 2100000, guid: a3d73200d9fb0db41a5d61617b24e67e, type: 2}
+--- !u!208 &208172709819914890
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926699633860136}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.25, y: 2.25, z: 1.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
