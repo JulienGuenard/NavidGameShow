@@ -115,11 +115,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1602952221}
     m_Modifications:
-    - target: {fileID: 114350687305292668, guid: b65e6a712fa3d7945b9c34ba61f5c2d3,
-        type: 2}
-      propertyPath: listTexture.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4470417722530140, guid: b65e6a712fa3d7945b9c34ba61f5c2d3, type: 2}
       propertyPath: m_LocalPosition.x
       value: 999
@@ -156,11 +151,6 @@ Prefab:
       propertyPath: m_Name
       value: Building
       objectReference: {fileID: 0}
-    - target: {fileID: 114350687305292668, guid: b65e6a712fa3d7945b9c34ba61f5c2d3,
-        type: 2}
-      propertyPath: listTexture.Array.data[0]
-      value: 
-      objectReference: {fileID: 2800000, guid: 3a9fa148478f06e4fbdb04c3ec5770cc, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b65e6a712fa3d7945b9c34ba61f5c2d3, type: 2}
   m_IsPrefabParent: 0

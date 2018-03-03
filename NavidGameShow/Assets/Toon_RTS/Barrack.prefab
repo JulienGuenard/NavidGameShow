@@ -109,3 +109,5 @@ MonoBehaviour:
   isSpawned: 0
   listMesh:
   - {fileID: 4300000, guid: 3f530f86a8d3fa34e9fb946394f76a23, type: 3}
+  listMaterial:
+  - {fileID: 2100000, guid: a3d73200d9fb0db41a5d61617b24e67e, type: 2}
