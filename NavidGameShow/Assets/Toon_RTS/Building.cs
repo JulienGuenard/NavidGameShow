@@ -6,8 +6,17 @@ public class Building : MonoBehaviour {
 
 public typeBuilding type;
 public bool isSpawned = false;
+public List<Mesh> listMesh;
+public List<Texture> listTexture;
+
+  MeshFilter meshF;
+  MeshRenderer meshR;
 	
-	// Update is called once per frame
+    void Awake ()
+    {
+       meshF = GetComponent<MeshFilter>();
+       meshR = GetComponent<MeshRenderer>();
+    }
 	void Update () {
 		if (isSpawned)
         {
@@ -22,6 +31,8 @@ public bool isSpawned = false;
        switch (type) {
        case typeBuilding.Barrack:
            name = type.ToString();
+           meshF.mesh = listMesh[0];
+       //   Shader= listTexture[0];
        break;
        }
     }
